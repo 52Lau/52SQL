@@ -113,7 +113,7 @@
 
 　　这里测试数据里边没有借过5本的，但只要改为2，即可得到一条结果：
 
-![img](https://images0.cnblogs.com/i/381412/201408/041454433811378.jpg)
+![img](qiniu.ymxlass.com/小书匠/1554206241722.jpg)
 
 　　（3）查询借阅了"水浒"一书的读者，输出姓名及班级
 
@@ -123,7 +123,7 @@
 3 where c.CNO=r.CNO and r.BNO=b.BNO and b.BNAME='水浒'
 ```
 
-![img](https://images0.cnblogs.com/i/381412/201408/041457466624672.jpg)
+![img](qiniu.ymxlass.com/小书匠/1554206214501.jpg)
 
 　　（4）查询目前为止未还图书，输出借阅者（卡号）、书号及还书日期
 
@@ -133,7 +133,7 @@
 3 where RDATE<GETDATE()
 ```
 
-![img](https://images0.cnblogs.com/i/381412/201408/041459417099485.jpg)
+![img](qiniu.ymxlass.com/小书匠/1554206228156.jpg)
 
 　　（5）查询书名包括"网络"关键词的图书，输出书号、书名、作者
 
@@ -143,7 +143,7 @@
 3 where b.BNAME like '%网络%'
 ```
 
-![img](https://images0.cnblogs.com/i/381412/201408/041501232259433.jpg)
+![img](qiniu.ymxlass.com/小书匠/1554206269457.jpg)
 
 　　（6）查询现有图书中价格最高的图书，输出书名及作者
 
@@ -153,7 +153,7 @@
 3 where PRICE=( SELECT MAX(PRICE) from BOOKS )
 ```
 
-![img](https://images0.cnblogs.com/i/381412/201408/041503038655779.jpg)
+![img](qiniu.ymxlass.com/小书匠/1554206279408.jpg)
 
 　　（7）查询当前借了"计算方法"但没有借"计算方法习题集"的读者，输出其借书卡号，并按卡号降序排序输出
 
@@ -172,7 +172,7 @@
 
 
 
-![img](https://images0.cnblogs.com/i/381412/201408/041516068034805.jpg)
+![img](qiniu.ymxlass.com/小书匠/1554206293029.jpg)
 
 　　（8）将"计科一班"班同学所借图书的还期都延长一周
 
@@ -190,7 +190,7 @@
 
 
 
-![img](https://images0.cnblogs.com/i/381412/201408/041520101312742.jpg)
+![img](qiniu.ymxlass.com/小书匠/1554206306875.jpg)
 
 　　（9）从BOOKS表中删除当前无人借阅的图书记录
 
@@ -202,7 +202,7 @@
 5 )
 ```
 
-![img](https://images0.cnblogs.com/i/381412/201408/041524435532275.jpg)
+![img](qiniu.ymxlass.com/小书匠/1554206322358.jpg)
 
 　　这里四本图书被删除，只剩下1,3,6这三本图书了。
 
@@ -254,7 +254,7 @@
 5 where c.CNO=r.CNO and b.BNO=r.BNO and c.CLASS='计科一班'
 ```
 
-![img](https://images0.cnblogs.com/i/381412/201408/041613012259430.jpg)
+![img](qiniu.ymxlass.com/小书匠/1554206347626.jpg)
 
 > **PS：关于（View）视图，你必须了解的东东**
 >
@@ -277,7 +277,7 @@
 
 
 
-![img](https://images0.cnblogs.com/i/381412/201408/041623466154067.jpg)
+![img](qiniu.ymxlass.com/小书匠/1554206361085.jpg)
 
 　　（14）假定在建BOOKS表时没有定义主码，写出为BOOKS表追加定义主码的语句
 
