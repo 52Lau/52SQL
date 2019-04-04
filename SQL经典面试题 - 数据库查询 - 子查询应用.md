@@ -18,7 +18,7 @@
 还是这道数据库面试题柠檬班第30期学生要毕业了，他们的成绩存放在下表中，写出以下的SQL语句
 ```
 
-![img](http://quniu.ymxless.com/image/1554367051149.jpg)
+![img](http://qiniu.ymxlass.com/blog/1554369044351.jpg)
 
 ### 题目一：查询最新的一条记录
 
